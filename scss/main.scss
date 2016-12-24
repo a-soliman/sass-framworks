@@ -1,10 +1,11 @@
 @import "normalize";
 @import "susy";
 @import "breakpoint";
+@import "compass";
 
 $susy: (
 	columns: 16,
-	debug:(image: show),
+	// debug:(image: show),
 	global-box-sizing: border-sizing
 );
 
