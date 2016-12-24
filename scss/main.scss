@@ -10,8 +10,9 @@ $susy: (
 
 @include border-box-sizing;
 
+// === variable ===
+$medium-screen: 720px;
 .container {
-	height: 100vh;
 	@include container(1140px);
 }
 
@@ -20,7 +21,7 @@ $susy: (
 	background-color: rgba(0, 100, 100, 0.6);
 	display: none;
 
-	@include breakpoint(720px) {
+	@include breakpoint($medium-screen) {
 		display: block;
 		@include span(2 of 16);
 	}
@@ -29,7 +30,7 @@ $susy: (
 .main {
 	height: 80vh;
 
-	@include breakpoint(720px) {
+	@include breakpoint($medium-screen) {
 		@include span(10 of 16);
 	}
 	
@@ -44,7 +45,7 @@ $susy: (
 		@include span(10 of 10);
 		
 
-		@include breakpoint(720px) {
+		@include breakpoint($medium-screen) {
 			@include span(2 of 10);
 
 			&:nth-child(5n) {
@@ -59,7 +60,7 @@ $susy: (
 	background-color: rgba(100, 100, 30, 0.6);
 	clear: both;
 
-	@include breakpoint(720px) {
+	@include breakpoint($medium-screen) {
 		clear:none;
 		@include span(4 of 16 last);
 
