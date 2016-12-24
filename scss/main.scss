@@ -41,7 +41,7 @@ $susy: (
 		height: 20vh;
 		background-color: rgba(100,30, 100, 0.6);
 		padding: gutter(10);
-
+		@include span(10 of 10);
 		
 
 		@include breakpoint(720px) {
@@ -57,9 +57,12 @@ $susy: (
 .sidebar-right {
 	height: 80vh;
 	background-color: rgba(100, 100, 30, 0.6);
+	clear: both;
 
 	@include breakpoint(720px) {
+		clear:none;
 		@include span(4 of 16 last);
+
 	}
 	
 }
