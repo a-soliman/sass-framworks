@@ -13,12 +13,13 @@ $susy: (
 
 // === variable ===
 $medium-screen: 720px;
+$link-color: #330000;
 
 a {
-	color: #330000;
+	color: $link-color;
 
 	&:hover {
-		color: lighten(#330000, 20%);
+		color: lighten($link-color, 20%);
 		// color: darken(#330000, 15%);
 	}
 }
