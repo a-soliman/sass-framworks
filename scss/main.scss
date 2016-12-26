@@ -51,6 +51,9 @@ a {
 		height: 60vh;
 		padding: 3 * gutter();
 		background-color: rgba(100, 0, 0, 0.6);
+
+		@include text-shadow(#aaa 0 1px 0);
+		@include column-count(2);
 	}
 	.teaser {
 		height: 20vh;
