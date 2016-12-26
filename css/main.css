@@ -512,38 +512,49 @@ a:hover {
   -webkit-column-count: 2;
   column-count: 2;
 }
-/* line 58, ../scss/main.scss */
+/* line 59, ../scss/main.scss */
+.main .content p {
+  margin-top: 0;
+}
+/* line 63, ../scss/main.scss */
 .main .teaser {
-  height: 20vh;
+  height: 16vh;
   background-color: rgba(100, 30, 100, 0.6);
   padding: 2.04082%;
+  margin: 2vh 0;
   width: 100%;
   float: left;
   margin-left: 0;
   margin-right: 0;
+  -moz-box-shadow: #551955 0 0 5px;
+  -webkit-box-shadow: #551955 0 0 5px;
+  box-shadow: #551955 0 0 5px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
 }
 @media (min-width: 720px) {
-  /* line 58, ../scss/main.scss */
+  /* line 63, ../scss/main.scss */
   .main .teaser {
     width: 18.36735%;
     float: left;
     margin-right: 2.04082%;
   }
-  /* line 68, ../scss/main.scss */
+  /* line 77, ../scss/main.scss */
   .main .teaser:nth-child(5n) {
     float: right;
     margin-right: 0;
   }
 }
 
-/* line 75, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 .sidebar-right {
   height: 80vh;
   background-color: rgba(100, 100, 30, 0.6);
   clear: both;
 }
 @media (min-width: 720px) {
-  /* line 75, ../scss/main.scss */
+  /* line 84, ../scss/main.scss */
   .sidebar-right {
     clear: none;
     width: 24.05063%;
@@ -552,7 +563,7 @@ a:hover {
   }
 }
 
-/* line 88, ../scss/main.scss */
+/* line 97, ../scss/main.scss */
 .footer {
   height: 20vh;
   background-color: rgba(0, 30, 100, 0.6);
