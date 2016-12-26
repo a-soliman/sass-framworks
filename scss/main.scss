@@ -18,7 +18,8 @@ a {
 	color: #330000;
 
 	&:hover {
-		color: darken(#330000, 15%);
+		color: lighten(#330000, 20%);
+		// color: darken(#330000, 15%);
 	}
 }
 
