@@ -68,6 +68,7 @@ a {
 
 		@include span(10 of 10);
 		@include box-shadow(rgb(85, 25, 85) 0 0 5px);
+		@include border-radius(6px);
 		
 
 		@include breakpoint($medium-screen) {
