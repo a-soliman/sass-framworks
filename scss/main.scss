@@ -54,12 +54,20 @@ a {
 
 		@include text-shadow(#aaa 0 1px 0);
 		@include column-count(2);
+
+
+		p {
+			margin-top: 0;
+		}
 	}
 	.teaser {
-		height: 20vh;
+		height: 16vh;
 		background-color: rgba(100,30, 100, 0.6);
 		padding: gutter(10);
+		margin: 2vh 0;
+
 		@include span(10 of 10);
+		@include box-shadow(rgb(85, 25, 85) 0 0 5px);
 		
 
 		@include breakpoint($medium-screen) {
