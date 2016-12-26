@@ -16,6 +16,10 @@ $medium-screen: 720px;
 
 a {
 	color: #330000;
+
+	&:hover {
+		color: darken(#330000, 15%);
+	}
 }
 
 .container {
